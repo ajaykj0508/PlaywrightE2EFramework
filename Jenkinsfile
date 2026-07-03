@@ -33,7 +33,7 @@ pipeline {
     }
 
     environment {
-        SLACK_CHANNEL = '#general'
+        SLACK_CHANNEL = '#all-ajays-automation'
     }
 
     options {
@@ -288,7 +288,7 @@ pipeline {
             steps {
                 input message: 'Deploy to PROD?',
                     ok: 'Yes, Deploy!',
-                    submitter: 'admin,ajay'
+                    submitter: 'admin,naveen'
             }
         }
 
@@ -386,7 +386,7 @@ pipeline {
 
                 // Email Notification
                 emailext(
-                    to: 'ajayprasad6486@gmail.com,training@naveenautomationlabs.com',
+                    to: 'ajayprasad6486@gmail.com,skaranraj98@gmail.com',
                     subject: "🎭 CI/CD Pipeline — ${statusEmoji} ${buildStatus} — Build #${env.BUILD_NUMBER}",
                     mimeType: 'text/html',
                     body: """
