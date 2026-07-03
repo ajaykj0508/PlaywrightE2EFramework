@@ -1,7 +1,7 @@
 // ═══════════════════════════════════════════════════════════════
 // Jenkinsfile — Master CI/CD Pipeline
 // Playwright TypeScript Framework
-// Naveen Automation Labs
+// Ajay Automation
 // ═══════════════════════════════════════════════════════════════
 
 pipeline {
@@ -75,7 +75,7 @@ pipeline {
                 echo "  Installing Playwright Dependencies"
                 echo "========================================="
                 dir('qa-tests') {
-                    git url: 'https://github.com/naveenanimation20/OpenCartWebAPIFramework.git',
+                    git url: 'https://github.com/ajayprasad6486/My-Playwright-Framework-UI-API-',
                         branch: 'main'
                     sh 'npm ci'
                     sh 'npx playwright install --with-deps chromium'
@@ -288,7 +288,7 @@ pipeline {
             steps {
                 input message: 'Deploy to PROD?',
                     ok: 'Yes, Deploy!',
-                    submitter: 'admin,naveen'
+                    submitter: 'admin,ajay'
             }
         }
 
@@ -386,7 +386,7 @@ pipeline {
 
                 // Email Notification
                 emailext(
-                    to: 'naveenanimation20@gmail.com,training@naveenautomationlabs.com',
+                    to: 'ajayprasad6486@gmail.com,training@naveenautomationlabs.com',
                     subject: "🎭 CI/CD Pipeline — ${statusEmoji} ${buildStatus} — Build #${env.BUILD_NUMBER}",
                     mimeType: 'text/html',
                     body: """
@@ -415,7 +415,7 @@ pipeline {
                                     <a href="${env.BUILD_URL}console" style="display: inline-block; padding: 10px 20px; background: #6c757d; color: white; text-decoration: none; border-radius: 6px; margin: 4px;">🔍 Console Logs</a>
                                 </div>
                                 <div style="text-align: center; padding: 16px; color: #999; font-size: 12px; border-top: 1px solid #eee;">
-                                    Naveen Automation Labs | Playwright Framework
+                                    Ajay Automation | Playwright Framework
                                 </div>
                             </div>
                         </body>
