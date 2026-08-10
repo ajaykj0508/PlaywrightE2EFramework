@@ -1,0 +1,86 @@
+[
+  {
+    id: 8574418,
+    name: 'schema test',
+    email: 'automation_1786342290968@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8574416,
+    name: 'Naveen API Updated',
+    email: 'automation_1786342288486@open.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8574415,
+    name: 'Naveen API',
+    email: 'automation_1786342287551@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8574414,
+    name: 'schema test',
+    email: 'automation_1786342234155@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8571769,
+    name: 'uday',
+    email: 'automation_1786064610019@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8571768,
+    name: 'schema test',
+    email: 'automation_1786064608790@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8571766,
+    name: 'Naveen API Updated',
+    email: 'automation_1786064606617@open.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8571765,
+    name: 'Naveen API',
+    email: 'automation_1786064605743@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8570509,
+    name: 'uday',
+    email: 'automation_1785969197854@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8570507,
+    name: 'schema test',
+    email: 'automation_1785969196426@open.com',
+    gender: 'male',
+    status: 'active'
+  }
+]
+200
+OK
+true
+{
+  startTime: 1786342291777,
+  domainLookupStart: -1,
+  domainLookupEnd: -1,
+  connectStart: -1,
+  secureConnectionStart: -1,
+  connectEnd: -1,
+  requestStart: 0.27299999999922875,
+  responseStart: 441.5209999999988,
+  responseEnd: 442.66899999999987
+}
