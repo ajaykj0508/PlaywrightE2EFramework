@@ -16,6 +16,10 @@ test('get user test', async ({ request }) => {
 
     console.log(response.status());
     console.log(response.statusText());
+    console.log(response.ok());
+    let timing = response.timing();
+    console.log(timing)
+    expect(timing.responseEnd - timing.requestStart).toBeLessThan(1000)
 
     expect(response.status()).toBe(200);
 
